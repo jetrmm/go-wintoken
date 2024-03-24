@@ -10,7 +10,7 @@ Read more here: [Manipulating Windows Tokens With Go](https://fourcore.io/blogs/
 
 - Go
   - Requires Go to be installed on system. Tested on Go1.16+.
-  - `go get github.com/fourcorelabs/wintoken`
+  - `go get github.com/jetrmm/go-wintoken`
 
 ## Usage
 - To steal a token from a process, you can use OpenProcessToken and supply the PID and the type of token that you want
@@ -22,7 +22,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"github.com/fourcorelabs/wintoken"
+	"github.com/jetrmm/go-wintoken"
 )
 
 func main() {
@@ -47,7 +47,7 @@ import (
 	"os/exec"
 	"syscall"
 
-	"github.com/fourcorelabs/wintoken"
+	"github.com/jetrmm/go-wintoken"
 )
 
 func main() {
@@ -73,7 +73,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/fourcorelabs/wintoken"
+	"github.com/jetrmm/go-wintoken"
 )
 
 func main() {
@@ -95,7 +95,7 @@ func main() {
 package main
 
 import(
-	"github.com/fourcorelabs/wintoken"
+	"github.com/jetrmm/go-wintoken"
 )
 
 func main(){
